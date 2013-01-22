@@ -4,3 +4,4 @@ sys-apps/the_silver_searcher ~arm
 =app-admin/pwgen-2.07 ~arm
 dev-util/global **
 net-misc/openconnect ~arm
+app-admin/stow ~arm
