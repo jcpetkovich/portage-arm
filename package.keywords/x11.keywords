@@ -1,0 +1,15 @@
+x11-wm/dwm **
+=x11-terms/st-0.6-r1 **
+app-eselect/eselect-opengl ~arm
+x11-libs/libdrm ~arm
+x11-proto/glproto ~arm
+x11-base/xorg-server ~arm
+x11-base/xorg-drivers ~arm
+x11-misc/nitrogen **
+x11-misc/xsel ~arm
+x11-drivers/xf86-input-mtrack ~arm
+x11-drivers/xf86-input-synaptics ~arm
+x11-drivers/xf86-video-armsoc ~arm
+x11-misc/dmenu **
+x11-misc/dunst **
+x11-misc/slock **

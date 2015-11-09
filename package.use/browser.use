@@ -1,0 +1,7 @@
+www-client/qutebrowser printsupport gstreamer
+dev-qt/qtwebkit printsupport gstreamer
+dev-python/PyQt5 webkit
+dev-qt/qtcore icu
+dev-libs/libpcre pcre16
+media-plugins/gst-plugins-meta ffmpeg http theora v4l
+media-libs/gst-plugins-base theora

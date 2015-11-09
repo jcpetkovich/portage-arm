@@ -1,0 +1,3 @@
+sys-devel/llvm ~arm
+sys-devel/gcc ~arm
+sys-devel/clang ~arm

@@ -1,0 +1,152 @@
+diff -Naur dmenu-9999/config.def.h dmenu-9999-patched/config.def.h
+--- dmenu-9999/config.def.h	2015-11-02 22:50:37.640283758 -0500
++++ dmenu-9999-patched/config.def.h	2015-11-02 22:52:37.270283815 -0500
+@@ -15,3 +15,5 @@
+ static const char *outfgcolor  = "#000000";
+ /* -l option; if nonzero, dmenu uses vertical list with given number of lines */
+ static unsigned int lines      = 0;
++
++#define HIST_SIZE 20
+diff -Naur dmenu-9999/dmenu.1 dmenu-9999-patched/dmenu.1
+--- dmenu-9999/dmenu.1	2015-11-02 22:50:37.640283758 -0500
++++ dmenu-9999-patched/dmenu.1	2015-11-02 22:52:37.270283815 -0500
+@@ -22,6 +22,8 @@
+ .IR color ]
+ .RB [ \-sf
+ .IR color ]
++.RB [ \-hist
++.IR "<filename>" ]
+ .RB [ \-v ]
+ .P
+ .BR dmenu_run " ..."
+@@ -75,6 +77,9 @@
+ .BI \-sf " color"
+ defines the selected foreground color.
+ .TP
++.BI \-hist " <histfile>"
++the file to use for history
++.TP
+ .B \-v
+ prints version information to stdout, then exits.
+ .SH USAGE
+diff -Naur dmenu-9999/dmenu.c dmenu-9999-patched/dmenu.c
+--- dmenu-9999/dmenu.c	2015-11-02 22:50:37.640283758 -0500
++++ dmenu-9999-patched/dmenu.c	2015-11-02 22:53:53.170283851 -0500
+@@ -55,9 +55,37 @@
+ 
+ #include "config.h"
+ 
++static char *histfile = NULL;
++static char hist[HIST_SIZE][1024];
++static int hcnt = 0;
++
+ static int (*fstrncmp)(const char *, const char *, size_t) = strncmp;
+ static char *(*fstrstr)(const char *, const char *) = strstr;
+ 
++static int
++writehistory(char *command) {
++	int i = 0;
++	FILE *f;
++
++	if(!histfile || strlen(command) <= 0)
++		return 0;
++
++	if((f = fopen(histfile, "w"))) {
++		fputs(command, f);
++		fputc('\n', f);
++		for(; i < hcnt; i++) {
++			if(strcmp(command, hist[i]) != 0) {
++				fputs(hist[i], f);
++				fputc('\n', f);
++			}
++		}
++		fclose(f);
++		return 1;
++	}
++
++	return 0;
++}
++
+ static void
+ appenditem(struct item *item, struct item **list, struct item **last)
+ {
+@@ -418,6 +446,7 @@
+ 		puts((sel && !(ev->state & ShiftMask)) ? sel->text : text);
+ 		if (!(ev->state & ControlMask)) {
+ 			cleanup();
++			writehistory((sel == NULL) ? text : sel->text);
+ 			exit(0);
+ 		}
+ 		if (sel)
+@@ -466,13 +495,30 @@
+ }
+ 
+ static void
+-readstdin(void)
++readitems(void)
+ {
+ 	char buf[sizeof text], *p, *maxstr = NULL;
+ 	size_t i, max = 0, size = 0;
++	FILE *f;
++
++	if(histfile && (f = fopen(histfile, "r"))) {
++		for(i = 0; fgets(buf, sizeof buf, f); i++) {
++			if (i + 1 >= size / sizeof *items)
++				if (!(items = realloc(items, (size += BUFSIZ))))
++					die("cannot realloc %u bytes:", size);
++			if ((p = strchr(buf, '\n')))
++				*p = '\0';
++			if (!(items[i].text = strdup(buf)))
++				die("cannot strdup %u bytes:", strlen(buf) + 1);
++			items[i].out = false;
++			if (strlen(items[i].text) > max)
++				max = strlen(maxstr = items[i].text);
++		}
++		fclose(f);
++	}
+ 
+ 	/* read each line from stdin and add it to the item list */
+-	for (i = 0; fgets(buf, sizeof buf, stdin); i++) {
++	for (; fgets(buf, sizeof buf, stdin); i++) {
+ 		if (i + 1 >= size / sizeof *items)
+ 			if (!(items = realloc(items, (size += BUFSIZ))))
+ 				die("cannot realloc %u bytes:", size);
+@@ -484,6 +530,7 @@
+ 		if (strlen(items[i].text) > max)
+ 			max = strlen(maxstr = items[i].text);
+ 	}
++
+ 	if (items)
+ 		items[i].text = NULL;
+ 	inputw = maxstr ? TEXTW(maxstr) : 0;
+@@ -610,7 +657,8 @@
+ usage(void)
+ {
+ 	fputs("usage: dmenu [-b] [-f] [-i] [-l lines] [-p prompt] [-fn font] [-m monitor]\n"
+-	      "             [-nb color] [-nf color] [-sb color] [-sf color] [-v]\n", stderr);
++	      "             [-nb color] [-nf color] [-sb color] [-sf color] [-hist histfile]\n"
++	      "             [-v]\n", stderr);
+ 	exit(1);
+ }
+ 
+@@ -651,6 +699,8 @@
+ 			selbgcolor = argv[++i];
+ 		else if (!strcmp(argv[i], "-sf"))  /* selected foreground color */
+ 			selfgcolor = argv[++i];
++		else if (!strcmp(argv[i], "-hist"))
++			histfile = argv[++i];
+ 		else
+ 			usage();
+ 
+@@ -670,9 +720,9 @@
+ 
+ 	if (fast) {
+ 		grabkeyboard();
+-		readstdin();
++		readitems();
+ 	} else {
+-		readstdin();
++		readitems();
+ 		grabkeyboard();
+ 	}
+ 	setup();

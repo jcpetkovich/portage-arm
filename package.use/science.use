@@ -1,0 +1,7 @@
+sci-libs/openblas threads
+sci-libs/atlas threads lapack hardfp
+sci-libs/armadillo blas lapack arpack hdf5
+sci-libs/arpack mpi
+sci-libs/gsl cblas-external
+sys-cluster/openmpi romio threads heterogeneous
+virtual/mpi romio threads

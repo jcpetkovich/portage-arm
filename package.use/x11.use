@@ -1,0 +1,5 @@
+x11-wm/dwm savedconfig
+x11-terms/st savedconfig noboldcolors
+app-crypt/pinentry gnome-keyring -gtk
+x11-base/xorg-server unwind
+x11-libs/libdrm video_cards_exynos

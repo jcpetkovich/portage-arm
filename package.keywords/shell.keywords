@@ -1,0 +1,6 @@
+app-shells/fish **
+sys-apps/the_silver_searcher ~arm
+=app-admin/pass-1.6.5 **
+=app-admin/pwgen-2.07 ~arm
+dev-util/global **
+net-misc/openconnect ~arm

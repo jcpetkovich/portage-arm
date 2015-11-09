@@ -1,0 +1,9 @@
+app-editors/emacs ~arm
+app-misc/powerline **
+media-fonts/powerline-symbols ~arm
+media-fonts/powerline-fonts ~arm
+media-fonts/ttf-font-icons ~arm
+net-im/bitlbee **
+net-libs/libotr ~arm
+net-mail/mu **
+app-text/html2text **

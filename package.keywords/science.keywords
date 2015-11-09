@@ -1,0 +1,11 @@
+app-admin/eselect ~arm
+sci-libs/openblas **
+sci-libs/atlas **
+sci-libs/lapack-reference **
+sci-libs/armadillo **
+sci-libs/gsl ~arm
+virtual/blas **
+virtual/cblas **
+virtual/lapack **
+sci-libs/hdf5 ~arm
+sci-libs/arpack ~arm

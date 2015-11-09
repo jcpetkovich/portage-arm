@@ -1,0 +1,4 @@
+app-editors/emacs -gtk Xaw3d gnutls gzip-el libxml2 xft
+app-text/aspell linguas_en
+net-im/bitlbee gnutls otr
+net-mail/mu emacs
