@@ -1,1 +1,2 @@
 sys-devel/llvm clang python
+dev-libs/boost python
