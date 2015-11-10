@@ -98,7 +98,7 @@ diff -Naur dmenu-9999/dmenu.c dmenu-9999-patched/dmenu.c
 +				*p = '\0';
 +			if (!(items[i].text = strdup(buf)))
 +				die("cannot strdup %u bytes:", strlen(buf) + 1);
-+			items[i].out = false;
++			items[i].out = 0;
 +			if (strlen(items[i].text) > max)
 +				max = strlen(maxstr = items[i].text);
 +		}
