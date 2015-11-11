@@ -1,4 +1,4 @@
-app-text/texlive epspdf graphics science publishes extra xetex
+app-text/texlive epspdf graphics science publishes
 app-text/texlive-core xetex
 media-libs/harfbuzz icu
 media-libs/gd fontconfig
