@@ -17,3 +17,6 @@
 =dev-texlive/texlive-basic-2015 ~arm
 =app-text/texlive-core-2015 ~arm
 =dev-texlive/texlive-genericrecommended-2015 ~arm
+
+=app-text/lcdf-typetools-2.105 ~arm
+=app-text/dvipng-1.15 ~arm
