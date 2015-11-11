@@ -20,3 +20,12 @@
 
 =app-text/lcdf-typetools-2.105 ~arm
 =app-text/dvipng-1.15 ~arm
+
+=dev-texlive/texlive-mathextra-2015 ~arm
+=dev-texlive/texlive-plainextra-2015 ~arm
+=dev-texlive/texlive-fontsextra-2015 ~arm
+=app-text/teckit-2.5.3 ~arm
+=dev-texlive/texlive-formatsextra-2015 ~arm
+=dev-texlive/texlive-bibtexextra-2015 ~arm
+=dev-texlive/texlive-genericextra-2015 ~arm
+=dev-texlive/texlive-latexextra-2015 ~arm
