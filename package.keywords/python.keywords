@@ -52,15 +52,15 @@ dev-python/funcsigs ~arm
 
 # jupyter
 =dev-python/notebook-4.0.6 **
-=dev-python/jupyter_core-9999 **
-=dev-python/qtconsole-9999 **
-=dev-python/jupyter_client-9999 **
+=dev-python/jupyter_core-4.0.6 **
+=dev-python/qtconsole-4.1.0 **
+=dev-python/jupyter_client-4.1.1 **
 =dev-python/jupyter-1.0.0 **
 =dev-python/ipywidgets-4.1.1 **
-=dev-python/jupyter_console-9999 **
+=dev-python/jupyter_console-4.0.3 **
 =dev-libs/mathjax-2.5.3 ~arm
-=dev-python/nbformat-9999 **
-=dev-python/nbconvert-9999 **
+=dev-python/nbformat-4.0.1 **
+=dev-python/nbconvert-4.1.0 **
 =dev-python/ipython_genutils-9999 **
-=dev-python/ipykernel-9999 **
-=dev-python/traitlets-9999 **
+=dev-python/ipykernel-4.1.1 **
+=dev-python/traitlets-4.0.0 **
