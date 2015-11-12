@@ -35,6 +35,7 @@ dev-python/funcsigs -python_targets_python2_7
 
 # jupyter
 dev-python/ipython -python_targets_python2_7
+dev-python/ipyparallel -python_targets_python2_7
 dev-python/notebook -python_targets_python2_7
 dev-python/jupyter_core -python_targets_python2_7
 dev-python/qtconsole -python_targets_python2_7
