@@ -1,0 +1,10 @@
+# basic pydev
+dev-python/virtualenv ~arm
+dev-python/pip
+
+# core science
+sci-libs/scipy ~arm
+dev-python/numpy ~arm
+dev-python/pandas ~arm
+dev-python/sympy ~arm
+dev-python/matplotlib ~arm
