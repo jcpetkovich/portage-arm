@@ -56,7 +56,7 @@ dev-python/funcsigs ~arm
 =dev-python/qtconsole-9999 **
 =dev-python/jupyter_client-9999 **
 =dev-python/jupyter-1.0.0 **
-=dev-python/ipywidgets-9999 **
+=dev-python/ipywidgets-4.1.1 **
 =dev-python/jupyter_console-9999 **
 =dev-libs/mathjax-2.5.3 ~arm
 =dev-python/nbformat-9999 **
