@@ -5,7 +5,7 @@ dev-python/numpy lapack
 dev-python/mpmath gmp -python_targets_python2_7
 dev-python/pandas -python_targets_python2_7
 dev-python/sympy -python_targets_python2_7
-dev-python/matplotlib -python_targets_python2_7
+# dev-python/matplotlib -python_targets_python2_7
 
 # deps
 dev-python/numexpr -python_targets_python2_7
