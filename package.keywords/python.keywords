@@ -51,7 +51,7 @@ virtual/python-funcsigs ~arm
 dev-python/funcsigs ~arm
 
 # jupyter
-=dev-python/ipython **
+dev-python/ipython **
 =dev-python/notebook-4.0.6 **
 =dev-python/jupyter_core-4.0.6 **
 =dev-python/qtconsole-4.1.0 **
