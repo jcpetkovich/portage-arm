@@ -17,6 +17,23 @@ dev-python/mpmath ~arm
 dev-libs/c-blosc **
 dev-python/cycler ~arm
 dev-python/pytables **
+dev-python/gmpy ~arm
+
+# scikits
+sci-libs/scikits **
+sci-libs/scikits_image **
+sci-libs/scikits_learn **
+sci-libs/scikits_optimization **
+sci-libs/scikits_timeseries **
+sci-libs/suitesparseconfig ~arm
+dev-python/joblib **
+sci-libs/amd ~arm
+sci-libs/umfpack ~arm
+sci-libs/colamd ~arm
+dev-python/networkx **
+sci-libs/cholmod ~arm
+virtual/python-funcsigs ~arm
+dev-python/funcsigs ~arm
 
 # jupyter
 =dev-python/notebook-9999 **
