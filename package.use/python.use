@@ -1,4 +1,49 @@
 dev-libs/c-blosc hdf5
+
+sci-libs/scipy sparse -python_targets_python2_7
 dev-python/numpy lapack
-dev-python/mpmath gmp
-sci-libs/scipy sparse
+dev-python/mpmath gmp -python_targets_python2_7
+dev-python/pandas -python_targets_python2_7
+dev-python/sympy -python_targets_python2_7
+dev-python/matplotlib -python_targets_python2_7
+
+# deps
+dev-python/numexpr -python_targets_python2_7
+dev-python/versioneer -python_targets_python2_7
+dev-python/bottleneck -python_targets_python2_7
+dev-python/mpmath -python_targets_python2_7
+dev-libs/c-blosc -python_targets_python2_7
+dev-python/cycler -python_targets_python2_7
+dev-python/pytables -python_targets_python2_7
+dev-python/gmpy -python_targets_python2_7
+
+# scikits
+sci-libs/scikits -python_targets_python2_7
+sci-libs/scikits_image -python_targets_python2_7
+sci-libs/scikits_learn -python_targets_python2_7
+sci-libs/scikits_optimization -python_targets_python2_7
+sci-libs/scikits_timeseries -python_targets_python2_7
+sci-libs/suitesparseconfig -python_targets_python2_7
+dev-python/joblib -python_targets_python2_7
+sci-libs/amd -python_targets_python2_7
+sci-libs/umfpack -python_targets_python2_7
+sci-libs/colamd -python_targets_python2_7
+dev-python/networkx -python_targets_python2_7
+sci-libs/cholmod -python_targets_python2_7
+virtual/python-funcsigs -python_targets_python2_7
+dev-python/funcsigs -python_targets_python2_7
+
+# jupyter
+=dev-python/notebook-4.0.6 -python_targets_python2_7
+=dev-python/jupyter_core-9999 -python_targets_python2_7
+=dev-python/qtconsole-9999 -python_targets_python2_7
+=dev-python/jupyter_client-9999 -python_targets_python2_7
+=dev-python/jupyter-1.0.0 -python_targets_python2_7
+=dev-python/ipywidgets-4.1.1 -python_targets_python2_7
+=dev-python/jupyter_console-9999 -python_targets_python2_7
+=dev-libs/mathjax-2.5.3 -python_targets_python2_7
+=dev-python/nbformat-9999 -python_targets_python2_7
+=dev-python/nbconvert-9999 -python_targets_python2_7
+=dev-python/ipython_genutils-9999 -python_targets_python2_7
+=dev-python/ipykernel-9999 -python_targets_python2_7
+=dev-python/traitlets-9999 -python_targets_python2_7
