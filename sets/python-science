@@ -1,0 +1,10 @@
+dev-python/jupyter
+dev-python/scikits_image
+dev-python/scikits_learn
+dev-python/scikits_optimization
+dev-python/scikits_timeseries
+sci-libs/scipy
+dev-python/sympy
+dev-python/pandas
+dev-python/numpy
+dev-python/matplotlib
