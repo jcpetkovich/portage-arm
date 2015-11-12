@@ -52,6 +52,10 @@ dev-python/funcsigs ~arm
 
 # jupyter
 dev-python/ipython **
+=dev-python/pickleshare-9999 **
+=dev-python/path-py-8.1.2 ~arm
+=dev-python/ipyparallel-9999 **
+
 =dev-python/notebook-4.0.6 **
 =dev-python/jupyter_core-4.0.6 **
 =dev-python/qtconsole-4.1.0 **
