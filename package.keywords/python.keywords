@@ -5,6 +5,30 @@ dev-python/pip
 # core science
 sci-libs/scipy ~arm
 dev-python/numpy ~arm
-dev-python/pandas ~arm
-dev-python/sympy ~arm
+dev-python/pandas **
+dev-python/sympy **
 dev-python/matplotlib ~arm
+
+# Deps
+dev-python/numexpr **
+dev-python/versioneer ~arm
+dev-python/bottleneck **
+dev-python/mpmath ~arm
+dev-libs/c-blosc **
+dev-python/cycler ~arm
+dev-python/pytables **
+
+# jupyter
+=dev-python/notebook-9999 **
+=dev-python/jupyter_core-9999 **
+=dev-python/qtconsole-9999 **
+=dev-python/jupyter_client-9999 **
+=dev-python/jupyter-1.0.0 **
+=dev-python/ipywidgets-9999 **
+=dev-python/jupyter_console-9999 **
+=dev-libs/mathjax-2.5.3 ~arm
+=dev-python/nbformat-9999 **
+=dev-python/nbconvert-9999 **
+=dev-python/ipython_genutils-9999 **
+=dev-python/ipykernel-9999 **
+=dev-python/traitlets-9999 **
