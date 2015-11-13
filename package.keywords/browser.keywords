@@ -18,6 +18,7 @@ dev-qt/qtdeclarative ~arm
 media-libs/gstreamer ~arm
 media-plugins/gst-plugins-meta ~arm
 media-libs/gst-plugins-good ~arm
+media-libs/gst-plugins-bad ~arm
 media-plugins/gst-plugins-cdparanoia ~arm
 media-plugins/gst-plugins-soup ~arm
 media-plugins/gst-plugins-mad ~arm
