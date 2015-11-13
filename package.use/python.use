@@ -5,7 +5,7 @@ dev-python/numpy lapack
 dev-python/mpmath gmp -python_targets_python2_7
 dev-python/pandas -python_targets_python2_7
 dev-python/sympy -python_targets_python2_7
-# dev-python/matplotlib -python_targets_python2_7
+dev-python/matplotlib -python_targets_python2_7 -gtk gtk3
 
 # deps
 dev-python/numexpr -python_targets_python2_7
@@ -16,13 +16,20 @@ dev-libs/c-blosc -python_targets_python2_7
 dev-python/cycler -python_targets_python2_7
 dev-python/pytables -python_targets_python2_7
 dev-python/gmpy -python_targets_python2_7
+dev-python/cython -python_targets_python2_7
+dev-python/pillow -python_targets_python2_7
+dev-python/pygments -python_targets_python2_7
+www-servers/tornado -python_targets_python2_7
+dev-python/wxpython -python_targets_python2_7
+dev-python/pyopengl -python_targets_python2_7
+dev-python/jinja -python_targets_python2_7
+dev-python/pyzmq -python_targets_python2_7
+dev-python/statsmodels -python_targets_python2_7
 
 # scikits
 sci-libs/scikits -python_targets_python2_7
 sci-libs/scikits_image -python_targets_python2_7
 sci-libs/scikits_learn -python_targets_python2_7
-sci-libs/scikits_optimization -python_targets_python2_7
-sci-libs/scikits_timeseries -python_targets_python2_7
 sci-libs/suitesparseconfig -python_targets_python2_7
 dev-python/joblib -python_targets_python2_7
 sci-libs/amd -python_targets_python2_7

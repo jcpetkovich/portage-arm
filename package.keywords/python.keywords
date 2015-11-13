@@ -33,6 +33,7 @@ dev-libs/c-blosc **
 dev-python/cycler ~arm
 dev-python/pytables **
 dev-python/gmpy ~arm
+dev-python/statsmodels **
 
 # scikits
 sci-libs/scikits **
