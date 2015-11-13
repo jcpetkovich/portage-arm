@@ -20,7 +20,7 @@ dev-python/pip
 # core science
 sci-libs/scipy ~arm
 dev-python/numpy ~arm
-dev-python/pandas **
+=dev-python/pandas-0.17.0 **
 dev-python/sympy **
 dev-python/matplotlib ~arm
 
