@@ -34,6 +34,7 @@ dev-python/cycler ~arm
 dev-python/pytables **
 dev-python/gmpy ~arm
 dev-python/statsmodels **
+dev-python/patsy **
 
 # scikits
 sci-libs/scikits **
