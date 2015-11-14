@@ -2,3 +2,11 @@ app-emulation/docker **
 app-emulation/docker-compose **
 app-emulation/docker-machine **
 app-emulation/docker-swarm **
+
+=dev-go/go-md2man-1.0.3 **
+=dev-python/docker-py-1.3.1 **
+=dev-python/dockerpty-0.3.4 **
+=dev-go/blackfriday-9999 **
+=dev-python/websocket-client-0.34.0 **
+=dev-python/texttable-0.8.2 **
+=dev-go/sanitized-anchor-name-9999 **
