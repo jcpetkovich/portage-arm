@@ -1,3 +1,4 @@
+# default gentoo docker software
 app-emulation/docker **
 app-emulation/docker-compose **
 app-emulation/docker-machine **
@@ -10,3 +11,7 @@ app-emulation/docker-swarm **
 =dev-python/websocket-client-0.34.0 **
 =dev-python/texttable-0.8.2 **
 =dev-go/sanitized-anchor-name-9999 **
+
+# docker bin images
+app-emulation/docker-bin **
+app-emulation/docker-compose-bin **
