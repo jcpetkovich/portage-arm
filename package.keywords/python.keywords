@@ -35,6 +35,7 @@ dev-python/pytables **
 dev-python/gmpy ~arm
 dev-python/statsmodels **
 dev-python/patsy **
+dev-python/cairocffi **
 
 # scikits
 sci-libs/scikits **
