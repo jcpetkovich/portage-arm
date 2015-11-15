@@ -31,3 +31,5 @@ media-plugins/gst-plugins-pulse ~arm
 media-plugins/gst-plugins-libav ~arm
 media-libs/gst-plugins-base ~arm
 media-plugins/gst-plugins-v4l2 ~arm
+media-libs/x264 ~arm
+media-plugins/gst-plugins-x264 ~arm
