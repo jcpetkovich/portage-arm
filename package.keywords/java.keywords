@@ -3,3 +3,4 @@ app-eselect/eselect-java ~arm
 dev-java/java-config ~arm
 sys-apps/baselayout-java ~arm
 dev-java/icedtea-bin ~arm
+dev-java/icedtea:8 **
