@@ -4,3 +4,4 @@ dev-java/java-config ~arm
 sys-apps/baselayout-java ~arm
 dev-java/icedtea-bin ~arm
 dev-java/icedtea:8 **
+=dev-java/icedtea-web-1.5.1-r1 **
