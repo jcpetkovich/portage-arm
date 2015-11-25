@@ -3,8 +3,16 @@ app-eselect/eselect-java ~arm
 dev-java/java-config ~arm
 sys-apps/baselayout-java ~arm
 dev-java/icedtea-bin ~arm
+
+# java 8
 dev-java/icedtea:8 **
+
+# java 7
+=dev-java/icedtea-7.2.6.3-r1 **
 =dev-java/icedtea-web-1.5.1-r1 **
 
 =virtual/jdk-1.8.0 **
 =virtual/jre-1.8.0 **
+
+=virtual/jdk-1.7.0 **
+=virtual/jre-1.7.0 **
