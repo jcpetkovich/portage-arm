@@ -21,6 +21,7 @@ dev-python/cython -python_targets_python2_7
 dev-python/pillow -python_targets_python2_7
 dev-python/pygments -python_targets_python2_7
 www-servers/tornado -python_targets_python2_7
+dev-python/terminado -python_targets_python2_7
 dev-python/wxpython -python_targets_python2_7
 dev-python/pyopengl -python_targets_python2_7
 dev-python/jinja -python_targets_python2_7
