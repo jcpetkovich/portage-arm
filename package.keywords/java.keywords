@@ -15,8 +15,8 @@ dev-java/icedtea:8 **
 =dev-java/ant-core-1.9.2 ~arm
 =dev-java/javatoolkit-0.3.0-r9 ~arm
 
-=virtual/jdk-1.8.0 **
-=virtual/jre-1.8.0 **
+# =virtual/jdk-1.8.0 **
+# =virtual/jre-1.8.0 **
 
 =virtual/jdk-1.7.0 **
 =virtual/jre-1.7.0 **
