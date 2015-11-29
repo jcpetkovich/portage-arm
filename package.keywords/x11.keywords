@@ -13,3 +13,4 @@ x11-drivers/xf86-video-armsoc ~arm
 x11-misc/dmenu **
 x11-misc/dunst **
 x11-misc/slock **
+x11-themes/vanilla-dmz-xcursors ~arm
