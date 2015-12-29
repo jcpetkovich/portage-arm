@@ -1,2 +1,3 @@
 net-p2p/rtorrent ~arm
 net-libs/libtorrent ~arm
+sys-apps/usbmon **

@@ -1,3 +1,3 @@
 =sys-libs/ncurses-6.0-r1 ~arm
 media-libs/mesa ~arm
-
+=sys-libs/glibc-2.22-r1 ~arm
