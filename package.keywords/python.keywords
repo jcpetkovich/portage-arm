@@ -12,9 +12,13 @@ dev-python/pip
 =dev-python/six-1.10.0 ~arm
 =dev-python/CacheControl-0.11.5 ~arm
 =dev-python/colorama-0.3.3 ~arm
-=dev-python/setuptools-18.5 ~arm
-=dev-python/requests-2.8.1 ~arm
-=dev-python/lockfile-0.11.0-r1 ~arm
+dev-python/setuptools ~arm
+dev-python/requests ~arm
+dev-python/urllib3 ~arm
+dev-python/pyparsing ~arm
+dev-python/lockfile ~arm
+dev-python/colorama ~arm
+dev-python/packaging ~arm
 
 
 # core science
