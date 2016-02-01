@@ -1,5 +1,5 @@
 # basic pydev
-dev-python/virtualenv ~arm
+=dev-python/virtualenv-13.1.2-r1 ~arm
 dev-python/pip
 
 # deps
