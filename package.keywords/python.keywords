@@ -12,7 +12,7 @@ dev-python/pip
 =dev-python/six-1.10.0 ~arm
 =dev-python/CacheControl-0.11.5 ~arm
 =dev-python/colorama-0.3.3 ~arm
-dev-python/setuptools ~arm
+=dev-python/setuptools-19.2 ~arm
 dev-python/requests ~arm
 dev-python/urllib3 ~arm
 dev-python/pyparsing ~arm
