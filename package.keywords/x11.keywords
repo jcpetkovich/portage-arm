@@ -7,6 +7,7 @@ x11-base/xorg-server ~arm
 x11-base/xorg-drivers ~arm
 x11-misc/nitrogen **
 x11-misc/xsel ~arm
+x11-drivers/xf86-input-evdev ~arm
 x11-drivers/xf86-input-mtrack ~arm
 x11-drivers/xf86-input-synaptics ~arm
 x11-drivers/xf86-video-armsoc ~arm
