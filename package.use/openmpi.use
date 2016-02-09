@@ -1,1 +1,2 @@
+sys-cluster/openmpi java
 sys-apps/hwloc -pci
