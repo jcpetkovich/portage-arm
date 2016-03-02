@@ -1,3 +1,4 @@
 =sys-libs/ncurses-6.0-r1 ~arm
 media-libs/mesa ~arm
 sys-libs/glibc ~arm
+dev-libs/openssl ~arm
