@@ -2,3 +2,4 @@
 media-libs/mesa ~arm
 sys-libs/glibc ~arm
 dev-libs/openssl ~arm
+dev-libs/boost ~arm
