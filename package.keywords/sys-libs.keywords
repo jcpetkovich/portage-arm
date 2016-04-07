@@ -5,3 +5,4 @@ dev-libs/openssl ~arm
 dev-libs/boost ~arm
 dev-libs/boost ~arm
 dev-util/boost-build ~arm
+dev-libs/icu ~arm
