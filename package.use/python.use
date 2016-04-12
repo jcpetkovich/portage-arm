@@ -1,5 +1,11 @@
 dev-libs/c-blosc hdf5
 
+# cifs
+sys-libs/tdb python
+sys-libs/tevent python
+sys-libs/ntdb python
+
+# science
 sci-libs/scipy sparse -python_targets_python2_7
 dev-python/numpy lapack
 dev-python/mpmath gmp -python_targets_python2_7
