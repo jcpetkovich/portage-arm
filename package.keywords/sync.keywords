@@ -1,1 +1,4 @@
-net-misc/dropbox ~arm
+net-misc/dropbox **
+dev-util/patchelf **
+media-libs/libpng ~arm
+x11-misc/wmctrl **
