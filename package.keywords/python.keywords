@@ -65,7 +65,7 @@ dev-python/ipython **
 =dev-python/ipyparallel-9999 **
 =dev-python/notebook-4.0.6 **
 =dev-python/jupyter_core-4.0.6 **
-=dev-python/qtconsole-4.1.0 **
+=dev-python/qtconsole-9999 **
 =dev-python/jupyter_client-4.1.1 **
 =dev-python/jupyter-1.0.0 **
 =dev-python/ipywidgets-4.1.1 **
