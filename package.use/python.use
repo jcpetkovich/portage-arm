@@ -34,7 +34,9 @@ dev-python/jinja -python_targets_python2_7
 dev-python/pyzmq -python_targets_python2_7
 dev-python/statsmodels -python_targets_python2_7
 dev-python/sphinx -python_targets_python2_7
+dev-python/sphinxcontrib-websupport -python_targets_python2_7
 dev-python/mistune -python_targets_python2_7
+dev-python/docutils -python_targets_python2_7
 
 # scikits
 sci-libs/scikits -python_targets_python2_7
