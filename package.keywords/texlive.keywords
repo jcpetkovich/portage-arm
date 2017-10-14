@@ -15,7 +15,7 @@
 =dev-texlive/texlive-latexrecommended-2015-r1 ~arm
 =dev-tex/pgf-3.0.1 ~arm
 =dev-texlive/texlive-basic-2015 ~arm
-=app-text/texlive-core-2015 ~arm
+app-text/texlive-core ~arm
 =dev-texlive/texlive-genericrecommended-2015 ~arm
 
 =app-text/lcdf-typetools-2.105 ~arm
