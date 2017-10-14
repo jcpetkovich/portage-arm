@@ -1,4 +1,4 @@
-app-admin/eselect ~arm
+=app-admin/eselect-1.4.9-r100 **
 sci-libs/openblas **
 sci-libs/atlas **
 sci-libs/lapack-reference **
