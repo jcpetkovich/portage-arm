@@ -1,3 +1,4 @@
 sys-devel/llvm ~arm
+sys-devel/llvm-common ~arm
 sys-devel/gcc ~arm
 sys-devel/clang ~arm

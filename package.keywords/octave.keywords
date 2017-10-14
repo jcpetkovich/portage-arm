@@ -7,6 +7,6 @@ sci-mathematics/octave ~arm
 =sci-libs/ccolamd-2.8.0 ~arm
 =sci-libs/cxsparse-3.1.2 ~arm
 
-=x11-libs/qscintilla-2.9.1 ~arm
+x11-libs/qscintilla ~arm
 =dev-qt/qtscript-4.8.7 ~arm
 =dev-qt/qttranslations-4.8.7 ~arm

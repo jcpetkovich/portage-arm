@@ -1,3 +1,4 @@
 net-libs/nodejs ~arm
 dev-libs/libuv ~arm
 net-libs/http-parser ~arm
+net-libs/nghttp2 ~arm

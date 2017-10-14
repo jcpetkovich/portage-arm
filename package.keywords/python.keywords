@@ -12,13 +12,13 @@ dev-python/pip
 =dev-python/six-1.10.0 ~arm
 =dev-python/CacheControl-0.11.5 ~arm
 =dev-python/colorama-0.3.3 ~arm
-=dev-python/setuptools-19.2 ~arm
 dev-python/requests ~arm
 dev-python/urllib3 ~arm
 dev-python/pyparsing ~arm
 dev-python/lockfile ~arm
 dev-python/colorama ~arm
 dev-python/packaging ~arm
+dev-python/setuptools ~arm
 
 
 # core science
@@ -63,7 +63,6 @@ dev-python/ipython **
 =dev-python/pickleshare-9999 **
 =dev-python/path-py-8.1.2 ~arm
 =dev-python/ipyparallel-9999 **
-
 =dev-python/notebook-4.0.6 **
 =dev-python/jupyter_core-4.0.6 **
 =dev-python/qtconsole-4.1.0 **
@@ -76,4 +75,10 @@ dev-python/ipython **
 =dev-python/nbconvert-4.1.0 **
 =dev-python/ipython_genutils-9999 **
 =dev-python/ipykernel-4.1.1 **
-=dev-python/traitlets-4.0.0 **
+=dev-python/traitlets-9999 **
+virtual/python-pathlib **
+=dev-python/pathlib-1.0.1-r1 **
+dev-python/prompt_toolkit **
+dev-python/wcwidth **
+app-arch/zstd ~arm
+dev-python/jedi **
