@@ -3,7 +3,7 @@ sci-libs/openblas **
 sci-libs/atlas **
 sci-libs/lapack-reference **
 sci-libs/armadillo **
-sci-libs/gsl ~arm
+=sci-libs/gsl-2.4 **
 virtual/blas **
 virtual/cblas **
 virtual/lapack **
